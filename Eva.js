@@ -28,6 +28,21 @@ class Eva {
         }
 
         // #######################################################################
+        // Comparison Operations:
+        if (exp[0] === '>') {
+            return this.eval(exp[1], env) > this.eval(exp[2], env);
+        }
+        if (exp[0] === '>=') {
+            return this.eval(exp[1], env) >= this.eval(exp[2], env);
+        }
+        if (exp[0] === '<') {
+            return this.eval(exp[1], env) < this.eval(exp[2], env);
+        }
+        if (exp[0] === '<=') {
+            return this.eval(exp[1], env) <= this.eval(exp[2], env);
+        }
+
+        // #######################################################################
         // MATH Operations:
         if (exp[0] === '+') {
             return this.eval(exp[1], env) + this.eval(exp[2], env);
@@ -75,6 +90,28 @@ class Eva {
             const [_, name, value] = exp;
             return env.assign(name, this.eval(value, env));
         }
+
+        // #######################################################################
+        // if condition:
+        if (exp[0] === 'if') {
+            const [_tag, condition, consequent, alternative] = exp;
+            if (this.eval(condition, env)) {
+                return this.eval(consequent, env);
+            }
+            return this.eval(alternative, run);
+        }
+
+        // #######################################################################
+        // while condition:
+        if (exp[0] === 'while') {
+            const [_tag, condition, body] = exp;
+            let result;
+            while (this.eval(condition, env)) {
+                result = this.eval(body, env);
+            }
+            return result;
+        }
+
         throw `Unimplemented: ${JSON.stringify(exp)}`;
     }
 
