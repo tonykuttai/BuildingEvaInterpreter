@@ -30,42 +30,50 @@ class Eva {
         // #######################################################################
         // MATH Operations:
         if (exp[0] === '+') {
-            return this.eval(exp[1]) + this.eval(exp[2]);
+            return this.eval(exp[1], env) + this.eval(exp[2], env);
         }
 
         if (exp[0] === '*') {
-            return this.eval(exp[1]) * this.eval(exp[2]);
+            return this.eval(exp[1], env) * this.eval(exp[2], env);
         }
 
         if (exp[0] === '-') {
-            return this.eval(exp[1]) - this.eval(exp[2]);
+            return this.eval(exp[1], env) - this.eval(exp[2], env);
         }
 
         if (exp[0] === '/') {
-            return this.eval(exp[1]) / this.eval(exp[2]);
+            return this.eval(exp[1], env) / this.eval(exp[2], env);
         }
 
         if (exp[0] === '%') {
-            return this.eval(exp[1]) % this.eval(exp[2]);
+            return this.eval(exp[1], env) % this.eval(exp[2], env);
         }
 
         // #######################################################################
         // Block: Sequence of expressions
         if (exp[0] === 'begin') {
-            return this._evalBlock(exp, env);
+            const blockEnv = new Environment({}, env);
+            return this._evalBlock(exp, blockEnv);
         }
 
         // #######################################################################
         // Variable decalration: (var foo 10)
         if (exp[0] === 'var') {
             const [_, name, value] = exp;
-            return env.define(name, this.eval(value));
+            return env.define(name, this.eval(value, env));
         }
 
         // #######################################################################
         // Variable Access: foo
         if (isVariableName(exp)) {
             return env.lookup(exp);
+        }
+
+        // #######################################################################
+        // Variable set: (set foo 10)
+        if (exp[0] === 'set') {
+            const [_, name, value] = exp;
+            return env.assign(name, this.eval(value, env));
         }
         throw `Unimplemented: ${JSON.stringify(exp)}`;
     }
