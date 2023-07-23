@@ -4,8 +4,8 @@ Building an Interpreter for the Language Eva in Javascript
 
 ## Dependencies
 
-    - syntax-cli
-        Install it from npm
+### syntax-cli
+Install it from npm
 ```bash
 sudo npm install -g syntax-cli
 syntax-cli --help
