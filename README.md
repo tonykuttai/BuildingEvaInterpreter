@@ -33,7 +33,7 @@ Building an Interpreter for the Language 'Eva' in Javascript
 
 ### Lambda expression
 - Create an anonymous function
-- Lambda function: (lambda (data) (* data 10))
+- Lambda function:
     -  ```
         (def onClick (callback)
             (begin
@@ -44,13 +44,13 @@ Building an Interpreter for the Language 'Eva' in Javascript
         )            
         (onClick (lambda (data) (* data 10)))
         ```
-- Immediately Invoked Lambda Expressions : ((lambda (x) (* x x)) 10)
-    - ```
+- Immediately Invoked Lambda Expressions :
+    -   ```
         ((lambda (x) (* x x)) 2)
         ```
     - call lambda with an input argument and return the value
 - Save lambda to a variable
-    -```
+    -   ```
         (var square (lambda (x) (* x x)))
         (square 2)
         ```
