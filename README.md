@@ -46,14 +46,14 @@ Building an Interpreter for the Language 'Eva' in Javascript
         ```
 - Immediately Invoked Lambda Expressions : ((lambda (x) (* x x)) 10)
     - ```
-    ((lambda (x) (* x x)) 2)
-    ```
+        ((lambda (x) (* x x)) 2)
+        ```
     - call lambda with an input argument and return the value
 - Save lambda to a variable
     -```
-    (var square (lambda (x) (* x x)))
-    (square 2)
-    ```
+        (var square (lambda (x) (* x x)))
+        (square 2)
+        ```
 
 ## Dependencies
 ### syntax-cli
