@@ -23,5 +23,8 @@ module.exports = eva => {
             'result'
         ]),
 
-        10);
+    10);
+
+    console.log('While test:            All assertions passed');
+
 };

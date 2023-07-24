@@ -1,0 +1,1185 @@
+  100  cd ..
+  101  ls
+  102  mkdir FastSlowPointer
+  103  cd FastSlowPointer
+  104  code LinkedListCycle.cpp
+  105  git status
+  106  git add LinkedListCycle.cpp
+  107  git commit -m "Linked list cycle added"
+  108  git push
+  109  ls
+  110  git status
+  111  git add LinkedListCycle.cpp
+  112  git commit -m "Linked list cycle modified"
+  113  git push
+  114  code LinkedListCycleLength.cpp
+  115  clear
+  116  ls
+  117  git status
+  118  code HappyNumber.cpp
+  119  cd ..
+  120  cd ..
+  121  ls
+  122  cd Programming/Algorithms
+  123  ls
+  124  cd Arrays
+  125  ls
+  126  cat quickSort.cpp
+  127   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59605 
+  128  cd FastSlowPointer
+  129  git status
+  130  git add HappyNumber.cpp
+  131  git commit -m "modified HappyNumber"
+  132  git push
+  133  code MiddleOfLinkedList.cpp
+  134   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59652 
+  135   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59869 
+  136   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59874 
+  137   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59894 
+  138   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59964 
+  139   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=59975 
+  140   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60053 
+  141   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60059 
+  142   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60063 
+  143   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60085 
+  144   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60091 
+  145   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60099 
+  146   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60116 
+  147   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=60125 
+  148  brew install llvm@10
+  149  brew install llvm
+  150  echo 'export PATH="/opt/homebrew/opt/llvm/bin:$PATH"' >> ~/.zshrc
+  151  vim ~/.zshrc
+  152  source ~/.zshrc
+  153  brew upgrade
+  154   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49304 
+  155  brew upgrade
+  156  xcode-select --install
+  157  brew upgrade
+  158  brew install llvm
+  159  code
+  160  ls
+  161  git branch
+  162  git branch -r
+  163  git fetch --all
+  164  ls
+  165  cd FastSlowPointer
+  166  ls
+  167  code RearrangeList.cpp
+  168  cd ..
+  169  ls
+  170  mkdir MergeIntervals
+  171  cd MergeIntervals
+  172  ls
+  173  code MergeIntervals.cpp
+  174   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49398 
+  175   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49495 
+  176   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49543 
+  177   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49557 
+  178   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49568 
+  179   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49578 
+  180  ls
+  181  cd ..
+  182  cd ..
+  183  ls
+  184  ls
+  185  cd CodingPatterns
+  186  ls
+  187  cd ..
+  188  mkdir DesignPatterns
+  189  git init
+  190  ls -a
+  191  rm -r .git
+  192  ls
+  193  ls -a
+  194  cd DesignPatterns
+  195  git init
+  196  clear
+  197   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49385 
+  198   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49435 
+  199   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49499 
+  200   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49538 
+  201   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=49584 
+  202  ls
+  203  git status
+  204  git status
+  205   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=50074 
+  206   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=55070 
+  207  ls
+  208  git status
+  209  cd ObserverPattern
+  210  ls
+  211  cd Weather
+  212  ls
+  213  ls -a
+  214   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=55363 
+  215  ls
+  216  cd ObserverPattern
+  217  ls
+  218  cp -rv Weather WeatherUsingPullAdvanced
+  219  ls
+  220  cd WeatherUsingPullAdvanced
+  221  ls
+  222  clear
+  223   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=55654 
+  224  ls
+  225  git status
+  226  ls
+  227  mkdir DecoratorPattern
+  228  cd DecoratorPattern
+  229  code DecoratorPattern.txt
+  230  ls
+  231  cd ..
+  232  ls
+  233  cd DecoratorPattern
+  234  ls
+  235  mkdir Beverage
+  236  cd Beverage
+  237  ls
+  238  code Beverage.hpp
+  239   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=57818 
+  240   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=57855 
+  241   /Users/tonyvarghese/.vscode/extensions/vadimcn.vscode-lldb-1.8.1/adapter/codelldb terminal-agent --connect=57939 
+  242  ls
+  243  mkdir Duck
+  244  cd Duck
+  245  ls
+  246  code Duck.hpp
+  247  ls
+  248  g++ main.cpp
+  249  g++ *.cpp -o output 
+  250  clear
+  251  g++ *.cpp -o output 
+  252  g++ *.cpp -o output -Wc++14
+  253  g++ *.cpp -o output -Wc++11-extensions
+  254  clear
+  255  ls
+  256  cd ..
+  257  ls
+  258  mkdir StratergyPattern
+  259  mv Duck StratergyPattern
+  260  ls
+  261  git init
+  262  ls -a
+  263  ls
+  264  git status
+  265  git commit -m "Created StartergyPattern folder"
+  266  ls
+  267  git remote
+  268  git push origin master
+  269  ls
+  270  git fetch origin
+  271  git branch -r
+  272  git checkout main
+  273  git merge origin/master --allow-unrelated-histories
+  274  git status
+  275  git merge origin/master --allow-unrelated-histories
+  276  ls -a
+  277  code .gitignore
+  278  git add .gitignore
+  279  git commit -m "merge gitignore"
+  280  git merge origin/master --allow-unrelated-histories
+  281  git checkout main
+  282  git push --all origin
+  283  cd StratergyPattern/Duck
+  284  ls
+  285  code main.cpp
+  286  clear
+  287  ls
+  288  ./main
+  289  ls
+  290  git status
+  291  git add FlyRocketPowered.hpp ModelDuck.hpp
+  292  git status
+  293  git add main.cpp Duck.hpp
+  294  git status
+  295  git commit -m "Added Dynamic Modification of stratergy"
+  296  git push --all origin
+  297  ls
+  298  git add StratergyPattern.txt
+  299  git commit -m "Added Definition STartergy Pattern"
+  300  git push --all origin
+  301  git status
+  302  git rm main.dSYM
+  303  git rm -r main.dSYM
+  304  git rm -r main.dSYM -f
+  305  git commit -m "Remove main.dSYM"
+  306  git push --all origin
+  307  cd ..
+  308  cd ..;git rm .DS_Store
+  309  git rm -r .DS_Store
+  310  git rm -r .DS_Store -f
+  311  git commit -m "remove .DS_Store"
+  312  git push --all origin
+  313  ls
+  314  mkdir ObserverPattern
+  315  ls
+  316  cd StratergyPattern
+  317  ls
+  318  mv Duck/StratergyPattern.txt .
+  319  ls
+  320  git status
+  321  ls
+  322  mv StratergyPattern.txt Duck
+  323  ls
+  324  cd Duck
+  325  ls
+  326  git status
+  327  git help 
+  328  git help mv
+  329  git mv StratergyPattern.txt ../
+  330  git status
+  331  git commit -m "Moved Stratergy Pattern definition"
+  332  git push --all origin
+  333  cd ..
+  334  cd ..
+  335  cd ObserverPattern
+  336  ls
+  337  code ObserverPattern.txt
+  338  ls
+  339  mkdir Weather
+  340  cd Weather
+  341  ls
+  342  cd ..
+  343  ls
+  344  git mv Subject.hpp ./Weather
+  345  mv Subject.hpp ./Weather
+  346  ls
+  347  cd Weather
+  348  ls
+  349  git status
+  350  cd ..
+  351  ls
+  352  cd ..
+  353  ls
+  354  git status
+  355  cd ObserverPattern
+  356  ls
+  357  git add ObserverPattern.txt
+  358  cd Weather
+  359  git add Subject.hpp
+  360  git status
+  361  git commit -m "OberverPattern initial commit"
+  362  git push --all origin
+  363  ls
+  364  code Subject.hpp
+  365  ls
+  366  ls
+  367  git status
+  368  rm WeatherStation.hpp
+  369  ls
+  370  ls
+  371  mv StatisticsDisplay.cpp StatisticsDisplay.hpp
+  372  ls
+  373  ls
+  374  ls -a
+  375  ls
+  376  mv HeatIndex.hpp HeatIndexDisplay.hpp
+  377  code HeatIndexDisplay.hpp
+  378  ls
+  379  cd ../WeatherUsingPullAdvanced
+  380  ls
+  381  code Subject.hpp
+  382  code *.hpp
+  383  ls
+  384  cd ../../DecoratorPattern/Beverage
+  385  ls
+  386  clear
+  387  ls
+  388  ls
+  389  mv StartBuzzCoffee.hpp StarBuzzCoffee.hpp
+  390  cd ..
+  391  ls
+  392  cd ..
+  393  ls
+  394  cat README.md
+  395  ls
+  396  llvm -version
+  397  llvm --version
+  398  brew install llvm@16
+  399  brew install llvm@14
+  400  bew install graphviz
+  401  brew install graphviz
+  402  brew install graphviz --with-app
+  403  ninja -help
+  404  help cmake
+  405  cmake -help
+  406  vim ~/.zshrc
+  407  source ~/.zshrc
+  408  cat ~/.zshrc
+  409  which llvm
+  410  llvm --version
+  411  llvm-config --version
+  412  brew info llvm
+  413  textedit ~/.zshrc
+  414  TextEdit ~/.zshrc
+  415  open -t ~/.zshrc
+  416  source ~/.zshrc
+  417  open -t ~/.zshrc
+  418  cd /opt/homebrew/opt/llvm/
+  419  ls
+  420  cd lib
+  421  ls
+  422  cat ~/.zshrc
+  423  cd /opt/homebrew/opt/llvm/include
+  424  ls
+  425  cd
+  426  pwd
+  427  ls
+  428  mkdir share
+  429  cd share
+  430  git clone https://github.com/llvm/llvm-project.git
+  431  ls
+  432  cd llvm-project
+  433  ls
+  434  mkdir build
+  435  cd b
+  436  cd build
+  437  cmake --build .
+  438  cmake -G Ninja ../llvm
+  439  cmake -G Ninja -DCMAKE_BUILD_TYPE=Debug ../llvm
+  440  cmake --build . 
+  441  clear
+  442  cd ..
+  443  ls
+  444  cd llvm/lib/Transforms/Hello
+  445  ls
+  446  cd ..
+  447  cd ..
+  448  cd ../../
+  449  ls
+  450  clear
+  451  ls
+  452  cd ..
+  453  cd llvm-project
+  454  echo 'export PATH="/opt/homebrew/opt/llvm@14/bin:$PATH"' >> ~/.zshrc
+  455  vim ~/.zshrc
+  456  source ~/.zshrc
+  457  cd ~/share/llvm-project
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd llvm-project
+  462  cd llvm/lib/Transforms/Hello
+  463  ls
+  464  code .
+  465  pwd
+  466  cd /Users/tonyvarghese/share/llvm-project/llvm/include
+  467  ls
+  468  cd llvm/
+  469  ls
+  470  cd ..
+  471  cd ..
+  472  cd lib/Transforms
+  473  mkdir our_Pass
+  474  cd our_Pass
+  475  vpwd
+  476  pwd
+  477  /Users/tonyvarghese/share/llvm-project/llvm/include/llvm/
+  478  ls
+  479  cd /Users/tonyvarghese/share/llvm-project/llvm/include/llvm/
+  480  ls
+  481  pwd
+  482  cd ..
+  483  cd ../..
+  484  ls
+  485  ls
+  486  cd ..
+  487  cd llvm-project
+  488  cd llvm
+  489  ls
+  490  ls
+  491  rm -rf build
+  492  ls
+  493  cd lib/Transforms
+  494  ls
+  495  rm -rf our_pass
+  496  ls
+  497  cd ../../
+  498  ls
+  499  cat CMakeLists.txt
+  500  mkdir build
+  501  cd build
+  502  open -t ~/.zshrc
+  503  cd /opt/homebrew/opt/llvm/lib
+  504  ls
+  505  cd ..
+  506  ls
+  507  cd include
+  508  ls
+  509  cd ..
+  510  cd ..
+  511  ls
+  512  cd llvm
+  513  ls
+  514  cd lib
+  515  ls
+  516  cd ..
+  517  ls
+  518  rm -rf build
+  519  mkdir build
+  520  cd build
+  521  cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DLLDB_USE_SYSTEM_DEBUGSERVER=ON
+  522  cmake --build . 
+  523  flex -v
+  524  brew install flex
+  525  brew outdated
+  526  brew upgrade
+  527  ls
+  528  cd ..
+  529  pwd
+  530  ls
+  531  cd /
+  532  cd Volumes
+  533  ls
+  534  cd Samsung\ Portable\ SSD\ T5\ 500GB
+  535  ls
+  536  mkdir Programs
+  537  cd Programs
+  538  mkdir llvm
+  539  git clone https:://github.com/llvm/llvm-project.git
+  540  git clone https://github.com/llvm/llvm-project.git
+  541  ls
+  542  cd llvm-project
+  543  ls
+  544  cd llvm
+  545  ls
+  546  cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;lld;lldb;mlir;polly" -DLLVM_USE_LINKER=gold -DCMAKE_BUILD_TYPE=Debug -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DLLVM_TARGETS_TO_BUILD='AArch64'  -DBUILD_SHARED_LIBS=on
+  547  cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DLLDB_USE_SYSTEM_DEBUGSERVER=ON
+  548  cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  549  ls
+  550  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/Samsung\ Portable\ SSD\ T5\ 500GB/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  551  ls
+  552  cd ..
+  553  ls
+  554  mkdir build
+  555  cd build
+  556  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/Samsung\ Portable\ SSD\ T5\ 500GB/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  557  pwd
+  558  cmake -G Ninja ../llvm -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra;" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  559  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/Samsung\ Portable\ SSD\ T5\ 500GB/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  560  ls
+  561  cd ..
+  562  ls
+  563  cd llvm
+  564  ls
+  565  rm -rf CMakeCache.txt CMakeFiles
+  566  ls
+  567  cd ..
+  568  cd build
+  569  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/Samsung\ Portable\ SSD\ T5\ 500GB/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi"
+  570  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/Samsung\ Portable\ SSD\ T5\ 500GB/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DCMAKE_BUILD_TYPE=Debug
+  571  cmake --build .
+  572  pwd
+  573  cd /
+  574  cd Volumes
+  575  ls
+  576  cd SamsungT5
+  577  cd Programs/llvm-project/build
+  578  ls
+  579  cmake --build .
+  580  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/SamsungT5/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DCMAKE_BUILD_TYPE=Debug
+  581  cd ..
+  582  rm -rf build
+  583  mkdir build
+  584  cd build
+  585  cmake ../llvm -G Ninja -DCMAKE_INSTALL_PREFIX=/Volumes/SamsungT5/Programs/llvm-project/build -DBUILD_SHARED_LIBS=on -DLLVM_ENABLE_PROJECTS="clang;clang-tools-extra" -DCMAKE_OSX_ARCHITECTURES='arm64' -DLLVM_ENABLE_RUNTIMES="libcxx;libcxxabi" -DCMAKE_BUILD_TYPE=Debug
+  586  cmake --build .
+  587  \n
+  588  ssh tmohanva@vdi-dd1bgl-010
+  589  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  590  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  591  python3 --version
+  592  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/HelloWorld/HelloWorld.py
+  593  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/HelloWorld/HelloWorld.py
+  594  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/Basics/basics.py
+  595  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/Basics/basics.py
+  596  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/Basics/dataseries.py
+  597  source /Users/tonyvarghese/Study/Python/Basics/venv/bin/activate
+  598  pip install MetaTrader5
+  599  /Users/tonyvarghese/Study/Python/Basics/venv/bin/python -m pip install --upgrade pip
+  600  pip install MetaTrader5
+  601  /Users/tonyvarghese/Study/Python/Basics/venv/bin/python --version
+  602  /opt/homebrew/bin/python3.11 /Users/tonyvarghese/Study/Python/Basics/dataseries.py
+  603  /Users/tonyvarghese/opt/anaconda3/bin/python /Users/tonyvarghese/Study/Python/Basics/dataseries.py
+  604  source /Users/tonyvarghese/opt/anaconda3/bin/activate base
+  605  /Users/tonyvarghese/opt/anaconda3/bin/python /Users/tonyvarghese/Study/Python/Basics/dataseries.py
+  606  /Users/tonyvarghese/opt/anaconda3/bin/python /Users/tonyvarghese/Study/Python/Basics/basics.py
+  607  /Users/tonyvarghese/opt/anaconda3/bin/python /Users/tonyvarghese/Study/Python/Basics/dataseries.py
+  608  pip install MetaTrader5
+  609  python3 -m ensurepip --default-pip
+  610  python3 -m pip install MetaTrader5
+  611  /Users/tonyvarghese/opt/anaconda3/bin/python -m pip install MetaTrader5
+  612  clear
+  613  /Users/tonyvarghese/opt/anaconda3/bin/python -m venv /Users/tonyvarghese/Study/Python/Basics/venv
+  614  python3 --version
+  615  python --version
+  616  pip install MetaTrader5
+  617  pip install --no-binary MetaTrader5 MetaTrader5
+  618  softwareupdate --install-rosetta
+  619  pip install --no-binary MetaTrader5 MetaTrader5
+  620  brew install python
+  621  pip install --no-binary MetaTrader5 MetaTrader5
+  622  pip3 install --no-binary MetaTrader5 MetaTrader5
+  623  python -m venv /Users/tonyvarghese/Study/Python/Demo/venv
+  624  source /Users/tonyvarghese/Study/Python/Demo/venv/bin/activate
+  625  pip install pandas
+  626  /Users/tonyvarghese/Study/Python/Demo/venv/bin/python -m pip install --upgrade pip
+  627  pip install MetaTrader5
+  628  python --version
+  629  python3 --version
+  630  /Applications/MetaTrader\ 5.app/Contents/SharedSupport/metatrader5/MetaTrader\ 5/wine64-preloader ; exit;
+  631  python3 --version
+  632  python --version
+  633  python -m venv botbasics
+  634  sh ./botbasics/bin/activate.sh
+  635  ./botbasics/bin/activate
+  636  sudo ./botbasics/bin/activate
+  637  source ./botbasics/bin/activate
+  638  pip3 install --upgrade pip
+  639  pip3 install MetaTrader5
+  640  pip3 install pandas
+  641  pip3 install numpy
+  642  pip3 install MetaTrader5
+  643  pip install MetaTrader5
+  644  pip install MetaTrader5=5.0.44
+  645  pip install MetaTrader5==5.0.44
+  646  pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple MetaTrader5\n
+  647  pip install MetaTrader5==5.0.38
+  648  source /Users/tonyvarghese/Study/Python/BotBasics/botbasics/bin/activate
+  649  exit
+  650  source /Users/tonyvarghese/Study/Python/BotBasics/botbasics/bin/activate
+  651  source /Users/tonyvarghese/Study/Python/BotBasics/botbasics/bin/activate
+  652  flex --version
+  653  cd ..
+  654  ls
+  655  mkdir learnflex
+  656  cd learnflex
+  657  ls
+  658  code lexer.l
+  659  ls
+  660  flex lexer.l
+  661  ls
+  662  code lex.yy.c
+  663  gcc -o lexer lex.yy.c -ll
+  664  flex lexer.l
+  665  flex lexer.l
+  666  ls
+  667  rm -rf lex.yy.c
+  668  ls
+  669  flex lexer.l
+  670  ls
+  671  gcc -o lexer lex.yy.c -ll
+  672  gcc --version
+  673  ./lexer
+  674  which gcc
+  675  flex lexer.l
+  676  ls
+  677  gcc -o lexer lex.yy.c -ll
+  678  gcc -o lexer lex.yy.c -ll
+  679  flex lexer.l
+  680  gcc -o lexer lex.yy.c -ll
+  681  ./lexer
+  682  ls
+  683  sudo port install byobu
+  684  pwd
+  685  ls
+  686  cd /
+  687  ls
+  688  cd Volumes/SamsungT5
+  689  ls
+  690  cd Learning
+  691  ls
+  692  cd Compiler
+  693  ls
+  694  mkdir RISC_V_Toolchain
+  695  cd RISC_V_Toolchain
+  696  ls
+  697  vim hello.cpp
+  698  vim --version
+  699  g++ hello.cpp -v
+  700  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  701  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  702  brew install flex
+  703  brew install bison
+  704  brew install build-essential
+  705  brew install libxaw
+  706  clear
+  707  ls
+  708  cd /
+  709  ls
+  710  cd Volumes/SamsungT5
+  711  cd Learning/Compiler/Stanford\ Compilers
+  712  ls
+  713  cd Compilers
+  714  ls
+  715  cd ..
+  716  rm -rf Compilers
+  717  ls
+  718  cd
+  719  sudo mkdir /usr/class
+  720  ls
+  721  cd /Volumes/SamsungT5/Learning/Compiler/Stanford\ Compilers
+  722  mkdir class
+  723  cd class
+  724  wget https://courses.edx.org/asset-v1:StanfordOnline+SOE.YCSCS1+1T2020+type@asset+block@student-dist.tar.gz
+  725  wget https://courses.edx.org/asset-v1:StanfordOnline+SOE.YCSCS1+1T2020+type@asset+block@student-dist.tar.gz
+  726  cd
+  727  ls
+  728  cd Study/Compilers
+  729  ls
+  730  cd CS\ 143\ Stanford
+  731  ls
+  732  mkdir class
+  733  cd class
+  734  wget https://courses.edx.org/asset-v1:StanfordOnline+SOE.YCSCS1+1T2020+type@asset+block@student-dist.tar.gz
+  735  ls
+  736  tar -xf student.tar.gz
+  737  ls
+  738  cd student
+  739  ls
+  740  ln -s . ~/Desktop/cs143
+  741  cd ~/Desktop
+  742  ls
+  743  cd cs143
+  744  ls
+  745  cd cs143
+  746  ls
+  747  ln -s ~/Study/Compilers/CS\ 143\ Stanford/class ~/Desktop/cs143compiler
+  748  cd ~/Desktop
+  749  ls
+  750  open cs143compiler
+  751  cd
+  752  echo $0
+  753  ls
+  754  vim ~/.zsh
+  755  vim ~/.zshrc 
+  756  source ~/.zsh
+  757  sudo apt-get install flex bison build-essential csh openjdk-6-jdk libxaw7-dev
+  758  cd ~/Desktop/cs143compiler
+  759  ls
+  760  cd student
+  761  cd try
+  762  ls
+  763  ls
+  764  coolc 1.cl
+  765  exit
+  766  cd ~/Desktop
+  767  open cs143compiler
+  768  cd cs143compiler
+  769  ls
+  770  cd student
+  771  ls
+  772  brew install byobu
+  773  cd ~/Desktop/cs143compiler
+  774  ls
+  775  ls
+  776  cd student
+  777  ls
+  778  mkdir try
+  779  cd try
+  780  vim 1.cl
+  781  cd
+  782  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  783  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  784  exit
+  785  exit
+  786  ls
+  787  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  788  exit
+  789  exit
+  790  exit
+  791  exit
+  792  brew info gcc
+  793  cd /opt/homebrew/Cellar/gcc/13.1.0/bin/
+  794  ls
+  795  cd │/Users/tonyvarghese/Study/Compilers/Flex
+  796  cd /Users/tonyvarghese/Study/Compilers/Flex
+  797  ls
+  798  flex 1.lex
+  799  ls
+  800  cd
+  801  brew untap homebrew/cask
+  802  brew untap homebrew/core
+  803  exit
+  804  exit
+  805  gcc --version
+  806  brew install gcc
+  807  brew info gcc
+  808  brew reinstall gcc
+  809  gcc --version
+  810  which gcc
+  811  vim ~/.zshrc
+  812  byobu
+  813  conda deactivate
+  814  cd /Users/tonyvarghese/Study/Compilers/Flex
+  815  gcc --version
+  816  gcc --version
+  817  flex 1.lex
+  818  gcc lex.yy.c -o out
+  819  flex 1.lex
+  820  gcc lex.yy.c -o out
+  821  gcc lex.yy.c -o out -v
+  822  vim ~/.zshrc
+  823  source ~/.zshrc
+  824  which gcc
+  825  cd /usr/bin/gcc
+  826  cd /usr/bin/
+  827  ls
+  828  readlink gcc
+  829  readlink -f gcc
+  830  cd
+  831  cd Study/Compilers/Flex
+  832  ls
+  833  pwd
+  834  /opt/homebrew/Cellar/gcc/13.1.0/bin/gcc-13 lex.yy.c -o out
+  835  cd
+  836  make clean
+  837  xcode-select --install
+  838  brew doctor
+  839  brew doctor
+  840  xcode-select --install
+  841  xcode-select -p
+  842  git --version
+  843  cd Study/Compilers/Flex
+  844  ls
+  845  /opt/homebrew/Cellar/gcc/13.1.0/bin/gcc-13 lex.yy.c -o out
+  846  brew upgrade llvm
+  847  brew upgrade gcc
+  848  sudo rm -rf /Library/Developer/CommandLineTools
+  849  xcode-select --install
+  850  /opt/homebrew/Cellar/gcc/13.1.0/bin/gcc-13 lex.yy.c -o out
+  851  gcc lex.yy.c -o out
+  852  flex 1.lex
+  853  gcc lex.yy.c -o out
+  854  flex 1.lex
+  855  gcc lex.yy.c -o out
+  856  cd /Users/tonyvarghese/Study/Compilers/Flex
+  857  ls
+  858  vim 1.lex
+  859  make lexer
+  860  flex cool.flex
+  861  ls
+  862  flex cool.flex
+  863  make lexer
+  864  conda deactivate
+  865  make lexer
+  866  make clean
+  867  make -f Makefile
+  868  ls
+  869  make -f Makefile lexer
+  870  code mycoolc
+  871  mycoolc
+  872  ./mycoolc
+  873  make
+  874  make clean
+  875  make
+  876  ls
+  877  make lexer
+  878  make -v lexer 
+  879  code Makefile
+  880  make lexer
+  881  pwd
+  882  cd assignments/PA2
+  883  make lexer
+  884  make lexer
+  885  cd assignments/PA2/
+  886  ls
+  887  code Makefile
+  888  which g++
+  889  g++ --version
+  890  cd
+  891  brew install gcc
+  892  brew reinstall gcc
+  893  cd /opt/homebrew/Cellar/gcc/13.1.0
+  894  ls
+  895  cd bin
+  896  ls
+  897  cd
+  898  cd Downloads
+  899  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 --version
+  900  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 try.cpp
+  901  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 try.cpp
+  902  /opt/homebrew/Cellar/gcc/13.1.0/bin/aarch64-apple-darwin22-g++-13 try.cpp
+  903  conda deactivate
+  904  /opt/homebrew/Cellar/gcc/13.1.0/bin/aarch64-apple-darwin22-g++-13 try.cpp
+  905  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 try.cpp
+  906  ls
+  907  ./a.out
+  908  ls
+  909  cd Desktop
+  910  ls
+  911  cd cs143compiler
+  912  cd
+  913  ls
+  914  cd Study/Compilers/cs143_Stanford
+  915  ls
+  916  cd class
+  917  ls
+  918  ls -a
+  919  cd assignments
+  920  ls
+  921  cd PA2
+  922  ls
+  923  make lexer
+  924  cd
+  925  cd Downloads
+  926  ls
+  927  ld: unsupported tapi file type '!tapi-tbd' in YAML file '/Library/Developer/CommandLineTools/SDKs/MacOSX13.sdk/usr/lib/libSystem.tb\n\n
+  928  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 try.cpp 
+  929  conda deactivate
+  930  /opt/homebrew/Cellar/gcc/13.1.0/bin/g++-13 try.cpp 
+  931  ls
+  932  ./a.out
+  933  exit
+  934  ls
+  935  bison rpcalc.y
+  936  conda deactivate
+  937  bison rpcalc.y
+  938  ls
+  939  make
+  940  echo 'export PATH="/opt/homebrew/opt/bison/bin:$PATH"' >> ~/.zshrc
+  941  code ~/.zshrc
+  942  source ~/.zshrc
+  943  make
+  944  ./rpcalc
+  945  ssh-keygen -t rsa -b 4096
+  946  scp /Users/tonyvarghese/.ssh/id_rsa.pub tmohanva@vdi-dd1bgl-010:~/.ssh/authorized_keys
+  947  scp /Users/tonyvarghese/.ssh/id_rsa.pub tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com:~/.ssh/authorized_keys
+  948  ssh tmohanva@vdi-dd1bgl-010.dhcp.mathworks.com
+  949  clear 
+  950  clang --version
+  951  ls
+  952  clang++ -g -O3 main.cpp `llvm-config --cxxflags`
+  953  clang++ -g -O3 main.cpp `llvm-config --cxxflags` -v
+  954  conda deactivate
+  955  clang++ -g -O3 main.cpp `llvm-config --cxxflags` -v
+  956  ./a.out
+  957  conda deactivate
+  958  clear
+  959  ls
+  960  cd Study/Compilers/Kaleidoscope
+  961  ls
+  962  code .
+  963  ls
+  964  cd ..
+  965  rm -rf Kaleidoscope
+  966  mkdir Kaleidoscope
+  967  cd Kaleidoscope
+  968  code .
+  969  ls
+  970  clang++ source.cpp
+  971  conda deactivate
+  972  clang++ source.cpp
+  973  ls
+  974  ./a.out
+  975  echo $?
+  976  code a.out
+  977  vim a.out
+  978  cat a.out
+  979  code a.out
+  980  clear
+  981  ls
+  982  clang++ source.cpp -S
+  983  code source.s
+  984  clang++ source.cpp -S -03
+  985  clang++ source.cpp -S -O3
+  986  clang++ source.cpp -S -O0
+  987  clang++ source.cpp -S -O1
+  988  clang++ source.cpp -S -O2
+  989  clang++ source.cpp -S -emit-llvm
+  990  ls
+  991  code source.ll
+  992  mkdir eva
+  993  cd eva
+  994  conda deactivate
+  995  ls
+  996  sl JavaBytecode.java
+  997  clear
+  998  ls
+  999  cd Study
+ 1000  ls
+ 1001  node hello.js
+ 1002  conda deactivate
+ 1003  node hello.js
+ 1004  ls
+ 1005  rm -rf hello.js
+ 1006  clear
+ 1007  code Eva.js
+ 1008  node Eva.js
+ 1009  node Eva.js
+ 1010  node Eva.js
+ 1011  node Eva.js
+ 1012  node Eva.js
+ 1013  node Eva.js
+ 1014  cmake --version
+ 1015  rm -rf *
+ 1016  ls
+ 1017  g++ -std=c++0x summer.cpp summerMain.cpp -lgtest -lgtest_main -pthread -o sumProgram
+ 1018  g++ summer.cpp summerMain.cpp -lgtest -lgtest_main -pthread -o sumProgram
+ 1019  # Compile the source files and Google Test library\ng++ -o tests tests.cpp calculator.cpp -lgtest -lgtest_main -pthread\n\n# Run the tests\n./tests\n
+ 1020  conda deactivate
+ 1021  code build.sh
+ 1022  sh build.sh
+ 1023  sh build.sh
+ 1024  ninja --version
+ 1025  sudo apt-get install ninja
+ 1026  brew install ninja
+ 1027  ninja
+ 1028  ninja
+ 1029  clear
+ 1030  ninja
+ 1031  ninja
+ 1032  ninja
+ 1033  ls
+ 1034  ./tests
+ 1035  conda deactivate
+ 1036  rm -rf *
+ 1037  ls
+ 1038  clear
+ 1039  node Eva.js
+ 1040  ninja
+ 1041  ninja
+ 1042  clear
+ 1043  ninja
+ 1044  ninja
+ 1045  g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva
+ 1046  ninja
+ 1047  clear
+ 1048  ninja
+ 1049  g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva
+ 1050  g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva
+ 1051  g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva
+ 1052  g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva
+ 1053   g++ -std=c++14 Eva.cpp EvaTests.cpp -lgtest -lgtest_main -pthread -o eva\n
+ 1054   g++ -std=c++14 EvaTests.cpp -lgtest -lgtest_main -pthread -o eva\n
+ 1055  ./eva
+ 1056   g++ -std=c++14 EvaTests.cpp -lgtest -lgtest_main -pthread -o eva\n
+ 1057  ./eva
+ 1058  ninja
+ 1059  ./tests
+ 1060  ninja
+ 1061  ./tests
+ 1062  ninja
+ 1063  ninja
+ 1064  ninja
+ 1065  ./tests
+ 1066  ninja
+ 1067  ./tests
+ 1068  ninja
+ 1069  ./tests
+ 1070  ninja
+ 1071  ninja -t clean
+ 1072  ninja
+ 1073  ./tests
+ 1074  ninja
+ 1075  ninja
+ 1076  clear
+ 1077  ninja
+ 1078  ninja
+ 1079  ninja
+ 1080  node test.js
+ 1081  node test.js
+ 1082  node test.js
+ 1083  ls
+ 1084  cd ../
+ 1085  ls
+ 1086  mkdir js
+ 1087  cd js
+ 1088  code test.js
+ 1089  code Eva.js
+ 1090  conda deactivate
+ 1091  ls
+ 1092  node test.js
+ 1093  node test.js
+ 1094  node test.js --trace-uncaught
+ 1095  node test.js
+ 1096  clear
+ 1097  node test.js
+ 1098  node test.js
+ 1099  node test.js
+ 1100  node test.js
+ 1101  clear
+ 1102  node test.js
+ 1103  node test.js
+ 1104  node test.js
+ 1105  node test.js
+ 1106  node test.js
+ 1107  node test.js
+ 1108  node test.js
+ 1109  node test.js
+ 1110  clear
+ 1111  node test.js
+ 1112  node test.js
+ 1113  node test.js
+ 1114  node test.js
+ 1115  node test.js
+ 1116  node test.js
+ 1117  node test.js
+ 1118  node test.js
+ 1119  node test.js
+ 1120  node test.js
+ 1121  node test.js
+ 1122  node test.js
+ 1123  node test.js
+ 1124  node test.js
+ 1125  ls
+ 1126  git init
+ 1127  ls
+ 1128  git add .
+ 1129  git status
+ 1130  git add *.js
+ 1131  git status
+ 1132  git commit -m "Initial commit"
+ 1133  git remote add origin https://github.com/tonykuttai/BuildingEvaInterpreter.git
+ 1134  git push -u origin master
+ 1135  git checkout main
+ 1136  git status
+ 1137  git checkout origin/main
+ 1138  git merge master
+ 1139  git merge origin/master
+ 1140  git checkout master
+ 1141  git push origin main
+ 1142  git branch
+ 1143  git remote
+ 1144  git push -all origin
+ 1145  git push --all origin
+ 1146  git fetch origin
+ 1147  git branch -r
+ 1148  git checkout main
+ 1149  git branch
+ 1150  git merge origin/master --allow-unrelated-histories
+ 1151  git branch
+ 1152  git branch master
+ 1153  git checkout -b master
+ 1154  git checkout master
+ 1155  git branch
+ 1156  git merge origin/main --allow-unrelated-histories
+ 1157  git branch
+ 1158  clear
+ 1159  git status
+ 1160  node test.js
+ 1161  node test.js
+ 1162  node test.js
+ 1163  node test.js
+ 1164  node test.js
+ 1165  git status
+ 1166  git add .
+ 1167  git status
+ 1168  git commit -m "Blocks: Expression groups and nested Scopes"
+ 1169  git branch
+ 1170  git checkout main
+ 1171  git merge master
+ 1172  git status
+ 1173  git push --all origin
+ 1174  git checkout master
+ 1175  git branch
+ 1176  clear
+ 1177  ls
+ 1178  mkdir unittests
+ 1179  cd unittests
+ 1180  code self-eval-test.js
+ 1181  code math-test.js
+ 1182  code variables-test.js
+ 1183  code block-test.js
+ 1184  code run.js
+ 1185  ls
+ 1186  cd ..
+ 1187  ls
+ 1188  git rm test.js
+ 1189  git rm test.js -f
+ 1190  git status
+ 1191  git add unittests
+ 1192  git status
+ 1193  git commit -m "move tests to new folder"
+ 1194  node unittests/run.js
+ 1195  node unittests/run.js
+ 1196  git status
+ 1197  git add .
+ 1198  git status
+ 1199  git commit -m "move tests to new folder + successfull run"
+ 1200  git branch
+ 1201  git checkout main
+ 1202  git merge master
+ 1203  git push --all origin
+ 1204  git checkout master
+ 1205  git branch
+ 1206  code unittests/if-test.js
+ 1207  ls
+ 1208  node unittests/run.js
+ 1209  node unittests/run.js
+ 1210  node unittests/run.js
+ 1211  node unittests/run.js
+ 1212  conda deactivate
+ 1213  ls
+ 1214  ls -a
+ 1215  ls
+ 1216  clear
+ 1217  node unittests/run.js
+ 1218  node unittests/run.js
+ 1219  node unittests/run.js
+ 1220  node unittests/run.js
+ 1221  git status
+ 1222  code unittests/while-test.js
+ 1223  node unittests/run.js
+ 1224  node unittests/run.js
+ 1225  node unittests/run.js
+ 1226  git status
+ 1227  git add .
+ 1228  git commit -m "Support Control flow: if and while expressions "
+ 1229  git branch
+ 1230  git checkout main
+ 1231  git merge master
+ 1232  git push --all origin
+ 1233  git checkout master
+ 1234  git branch
+ 1235  node unittests/run.js
+ 1236  code unittests/test-util.js
+ 1237  ls
+ 1238  mkdir parser
+ 1239  ls
+ 1240  sudo npm install -g syntax-cli
+ 1241  syntax-cli --help
+ 1242  code parser/eva-grammer.bnf
+ 1243  ls
+ 1244  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '42'
+ 1245  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '42' --tokenize
+ 1246  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '"Hello"'
+ 1247  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '"Hello"'
+ 1248  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse 'foo'
+ 1249  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse 'foo'
+ 1250  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '(+ 5 foo)'
+ 1251  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '(+ 5 foo)'
+ 1252  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '(+ 5 foo)' --tokenize
+ 1253  syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --output parser/evaParser.js
+ 1254  node unittests/run.js
+ 1255  git status
+ 1256  git add .
+ 1257  git commit -m "Support S-Expression to AST"
+ 1258  git checkout main
+ 1259  git merge master
+ 1260  git push --all origin
+ 1261  git checkout master
+ 1262  git branch
+ 1263  git add .
+ 1264  git commit -m "Support S-Expressions"
+ 1265  git checkout main
+ 1266  git merge master
+ 1267  git push --all origin
+ 1268  git diff main master
+ 1269  git branch
+ 1270  git checkout master
+ 1271  clear
+ 1272  git branch
+ 1273  git status
+ 1274  git add .
+ 1275  git commit -m "Add design goals in readme"
+ 1276  git status
+ 1277  git push
+ 1278  git checkout main
+ 1279  git merge master
+ 1280  git push --all origin
+ 1281  git checkout master
+ 1282  git branch
+ 1283  code unittests/built-in-function-test.js
+ 1284  node unittests/run.js

@@ -55,4 +55,6 @@ module.exports = eva => {
         )
         `,
     120);
+
+    console.log('Block test:            All assertions passed');
 };

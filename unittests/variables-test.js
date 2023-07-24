@@ -16,4 +16,6 @@ module.exports = eva => {
     assert.strictEqual(eva.eval(['var', 'isUser', 'true']), true);
 
     assert.strictEqual(eva.eval(['var', 'z', ['*', 3, 5]]), 15);
+
+    console.log('Variables test:        All assertions passed');
 };

@@ -22,4 +22,6 @@ module.exports = eva => {
     ]),
 
   20);
+
+  console.log('If test:               All assertions passed');
 };
