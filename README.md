@@ -1,5 +1,5 @@
 # BuildingEvaInterpreter
-Building an Interpreter for the Language Eva in Javascript
+Building an Interpreter for the Language 'Eva' in Javascript
 
 ## Design Goals
 - Simple syntax: S-expression
@@ -18,8 +18,20 @@ Building an Interpreter for the Language Eva in Javascript
     - Class-based
     - prototype based
 
-## Dependencies
+## Functions
+### Native functions
+- +, -, *, /, % 
+    - Natively supported operations
+    - They are defined in the global enviroment
+    - Example Usages:
+        - (+ 1 5)
+        - (* 3 4)
+        - (+ 1 (* 4 6))
+### User defined Functions
+- Functions can be declared as: (def square (x) (* x x))
+- Invoked by: (square 4) 
 
+## Dependencies
 ### syntax-cli
 Install it from npm
 ```bash
@@ -27,17 +39,16 @@ sudo npm install -g syntax-cli
 syntax-cli --help
 ```
 
-## Reference 
+## References
 ### Use Syntax-cli to test the grammar
-
 ```bash
 syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '42'
 syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '42' --tokenize
 syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --parse '(+ 5 foo)'
 ```
-
 ### Generate the eva Parser
 ```bash
 syntax-cli --grammar parser/eva-grammer.bnf --mode LALR1 --output parser/evaParser.js
 ```
 
+All credits to the original author of this course: Dmitry Soshikinov

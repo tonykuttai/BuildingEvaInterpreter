@@ -6,6 +6,7 @@ const assert = require('assert');
  *                  )
  */
 module.exports = eva => {
+    console.log('While test: Start');
     assert.strictEqual(eva.eval(
         ['begin',
 
@@ -25,6 +26,6 @@ module.exports = eva => {
 
     10);
 
-    console.log('While test:            All assertions passed');
+    console.log('While test: Passed');
 
 };

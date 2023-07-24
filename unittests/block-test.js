@@ -2,6 +2,7 @@ const assert = require('assert');
 const testUtil = require('./test-util');
 
 module.exports = eva => {
+    console.log('Block test: Start');
     // Blocks:
     assert.strictEqual(eva.eval(
         ['begin',
@@ -56,5 +57,5 @@ module.exports = eva => {
         `,
     120);
 
-    console.log('Block test:            All assertions passed');
+    console.log('Block test: Passed');
 };

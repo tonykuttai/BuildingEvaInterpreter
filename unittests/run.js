@@ -9,14 +9,18 @@ const tests = [
     require('./if-test.js'),
     require('./while-test.js'),
     require('./built-in-function-test.js'),
+    require('./user-defined-function-test.js'),
 ];
 
 const eva = new Eva();
 
+console.log('########## TESTING EVA ##########');
 tests.forEach(test => test(eva));
 
+console.log("Print test: Start");
 eva.eval(['print', '"Hello"', '"World!"']);
+console.log('Print test: Passed');
 
-console.log('All assertions passed');
+console.log('########## TESTS PASSED #########');
 
 

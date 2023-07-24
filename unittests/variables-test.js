@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 module.exports = eva => {
+    console.log('Variables test: Start');
     // Variables: declaration
     assert.strictEqual(eva.eval(['var', 'x', 10]), 10);
 
@@ -17,5 +18,5 @@ module.exports = eva => {
 
     assert.strictEqual(eva.eval(['var', 'z', ['*', 3, 5]]), 15);
 
-    console.log('Variables test:        All assertions passed');
+    console.log('Variables test: Passed');
 };
