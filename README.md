@@ -1,6 +1,22 @@
 # BuildingEvaInterpreter
 Building an Interpreter for the Language Eva in Javascript
 
+## Design Goals
+- Simple syntax: S-expression
+- Everything is an expression
+- No explicit return, last evaluated expression is the result
+- First-class functions
+    - assign to variables
+    - Pass as arguments
+    - return as values
+- Static Scope: all functions are closures
+- Lambda functions, IILEs
+- Functional programming
+- Imperative programming
+- Namespaces and modules
+- OOP
+    - Class-based
+    - prototype based
 
 ## Dependencies
 
